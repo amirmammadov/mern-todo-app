@@ -1,0 +1,31 @@
+.task-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+
+  &__button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+
+  &__input {
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    background-color: transparent;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}

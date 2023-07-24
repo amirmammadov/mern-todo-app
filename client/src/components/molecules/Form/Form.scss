@@ -1,0 +1,50 @@
+.formContainer {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    .formItem {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 1.5rem;
+      letter-spacing: 0.01rem;
+
+      .inputField {
+        border: none;
+        outline: none;
+        padding: 0.5rem;
+        font-size: 1.5rem;
+        border-radius: 0.5rem;
+      }
+    }
+
+    .formBtn {
+      padding: 0.5rem;
+      font-size: 1.5rem;
+      border-radius: 0.5rem;
+      border: none;
+      outline: none;
+      color: #555;
+
+      &:hover {
+        background-color: #64ff33;
+        cursor: pointer;
+        color: #fff;
+        transition: all 0.2s linear;
+      }
+    }
+  }
+}
