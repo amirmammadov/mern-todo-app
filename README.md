@@ -7,7 +7,7 @@ Frontend side:
 Backend side:
 --- Node.Js,Express.Js,
 
---Database side:
+Database side:
 --- MongoDB and Mongoose
 
 Authentication:
